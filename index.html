@@ -4,19 +4,99 @@
 <head>
 <meta charset="UTF-8">
 
-<title>box_model</title>
+<title>home_page</title>
 
-<meta name="description" content="A quick overview of the CSS box model">
-<meta name="keywords" content="CSS, HTML, style, box model">
+<meta name="description" content="My home_page">
+<meta name="keywords" content="index, home_page, home">
 <meta name="author" content= "James Payne">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="resources/index.css">
 </head>
 
 <body>
 <ul>
     <li><a href="running.html">Trail Running</a></li>
     <li><a href="box_model.html">CSS Box Model</a></li>
+    <li><a href="index.html">Home Page</a></li>
+</ul>
+<h1>James Payne Homepage</h1>
+<p>
+    This is my homepage, here I've got a few interesting links to some cool
+    engineering and science things, primarily talking about space and cubesats.
+    After I have a Resume section and some cool things I've learned from my 
+    classes I've experienced so far.
+</p>
+<h2>Cool Space and Engineering Stuff</h2>
+<p>
+    A cubesat is a standardized system for making miniature satellites, popular
+    for use in things like research or university projects, they are generally
+    very cheap by comparison to more specifically designed satellites. Here I 
+    have provided a few links to places to learn more, NASA and Hack-A-Sat's 
+    pages talking about the subject. Hack-A-Sat is particularlly cool since 
+    its a 'hackathon in space' where a cubesat was launched up and people 
+    competed in hacking it in a game of hacker capture the flag.
+</p>
+<a href="https://www.nasa.gov/what-are-smallsats-and-cubesats/">NASA: What are 
+    Cubesats</a>
+<a href="https://hackasat.com/moonlighter/">
+    <img src="resources/hack_a_sat.jpg" alt="A link to a cool hack-a-sat page"
+    width="768" height="384"></a>
+
+<h2>My Resume</h2>
+<a href="resources/James_Payne_Resume.pdf">My Resume</a>
+
+<h3>Some Classes I Took or am Taking</h3>
+<ul>
+    <li>ECE 3610 - Digital Systems</li>
+    <li>ECE 3710 - Embedded Systems</li>
+    <li>ECE 3210 - Signals and Systems</li>
+    <li>ECE 5750 - Quantum Computer Engineering</li>
+    <li>CS 2810 - Computer Organization and Architecture</li>
+    <li>CS 2420 - Data Structures and Algorithms</li>
+    <li>ECE 2240 - Dynamic Systems Engineering</li>
 </ul>
 
+<img src="resources/Lab5_calculated_vs_measured.png" alt="Cool Plots from my 
+    signals and systems class" width="640" height="480">
+
+
+<h4>Notes About Things I've Learned</h4>
+<table>
+    <tr>
+        <th>Topic</th>
+        <th>Description</th>
+        <th>Class I Learned it From</th>
+    </tr>
+    <tr>
+        <td>FFT</td>
+        <td>Fast Fourier Transform<br>Algorithm that breaks down signal from 
+            time domain into frequency domain<br>Is a more efficient version 
+            DFT or Discrete Fourier 
+        Transform</td>
+        <td>ECE 3210</td>
+    </tr>
+    <tr>
+        <td>Laplace Transform</td>
+        <td>Similar to the Fourier Transform, algorithm that converts a signal 
+            from time domain into frequency domain<br>Uses S instead of j 
+            omega</td>
+        <td>ECE 3210, ECE 2240</td>
+    </tr>
+    <tr>
+        <td>VHDL</td>
+        <td>Hardware description language, similar to a programming language,
+            used for designing an FPGA<br>Common alternative is Verilog
+        </td>
+        <td>ECE 3610</td>
+    </tr>
+    <tr>
+        <td>Assembly Language</td>
+        <td>A low level language type between languages like C and machine code
+            <br>Either RISC or CISC style<br>common ones are MIPS, X86, ARM, RISC-V
+        </td>
+        <td>ECE 3710, ECE 3610, CS 2810</td>
+    </tr>
+</table>
 </body>
 </html>
